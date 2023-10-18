@@ -16,7 +16,7 @@ public class Wallet {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private int uniqId;
 
     @Column(unique = true)
     private String userId;
